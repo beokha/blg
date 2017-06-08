@@ -17,15 +17,25 @@
             </figure>
             <nav class="nav">
                 @Html.ActionLink("main", "Index", "Home")
-                <div href="" class="us"> us 
+                <div class="us"> us info 
                     <ul class="ul_us">
-                        <li><a href="#">contact us</a></li>
-                        <li><a href="#">location</a></li>
+                        <li>@Html.ActionLink("contact", "Contact", "Home")</li>
                         <li><a href="#">term of use</a></li>
                     </ul>
                 </div>
-                
                 @Html.ActionLink("you", "Contact", "Home")
+                @Html.ActionLink("add post", "Contact", "Home", new { @class = "add_post" })
+            </nav>
+            <nav class="small_nav">
+                <div class="view_small_nav">
+                    Menu
+                    
+                    <ul class="ul_small_nav">
+                        <li>@Html.ActionLink("main", "Index", "Home")</li>
+                        <li>@Html.ActionLink("contact", "Contact", "Home")</li>
+                        <li><a href="#">term of use</a></li>
+                    </ul>
+                </div>
                 @Html.ActionLink("add post", "Contact", "Home", new { @class = "add_post" })
             </nav>
         </div>
