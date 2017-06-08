@@ -1,12 +1,98 @@
 ﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+    margin: 0px;
+    padding: 0px;
+    background-color: RGB(85,255,238);
+}
+
+/* ------------------------------------ navbar */
+.navbar {
+    background-color: RGB(56,238,255);
+    height: 50px;
+
+    margin-bottom: 25px;
+}
+/* navbar container */
+.container {
+    
+}
+.container::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+/* brand img */
+.brand {
+    float: left;
+    margin: 0px 0px 0px 15px;
+    padding: 5px;
+
+    transition: 1s;
+}
+.brand:hover {
+    background-color: RGB(85,255,238);
+}
+.brand img {
+    max-height: 40px;
+}
+/* navbar navigation */
+.nav {
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav a, .nav div {
+    display: block;
+    float: left;
+
+    height: 50px;
+    width: 150px;
+    line-height: 50px;
+    text-align: center;
+
+    font-size: large;
+    color: black;
+    text-decoration: none;
+
+    cursor: pointer;
+
+    transition: 1s;
+}
+.nav div:hover, .nav a:hover {
+    background-color: RGB(85,255,238);
+}
+
+/* Add post in the menu*/
+.add_post {
+    font-size: xx-large !important;
+    font-style: italic;
+    font-weight: bold;
+    background-color: RGB(85,255,238);
+}
+
+/* us menu: contact, location etc. */
+.us:hover > * {
+    display: block;
+}
+.ul_us {
+    display: none;
+    list-style: none;
+    background: red;
+    z-index: 9999;
+}
+.ul_us:hover {
+    display: block;
 }
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+    /* padding: 10px 15px 0px 15px; */
+}
+
+/* set default css */
+.section {
+    background-color: RGB(137,236,218);
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.5); /* Параметры тени */
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -21,4 +107,9 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+footer {
+    font-weight: bold;
+    text-align: center;
 }

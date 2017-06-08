@@ -3,28 +3,41 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title</title>
+    <title>blg | @ViewBag.Title</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
-    <div class="navbar">
+    <section class="navbar">
         <div class="container">
-            <div>
-                <ul>
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                </ul>
-            </div>
+            <figure class="brand">
+                <a href="/Home/Index/">
+                    <img src="~/img/site/blg_logo.png" alt="blg" />
+                </a>
+            </figure>
+            <nav class="nav">
+                @Html.ActionLink("main", "Index", "Home")
+                <div href="" class="us"> us 
+                    <ul class="ul_us">
+                        <li><a href="#">contact us</a></li>
+                        <li><a href="#">location</a></li>
+                        <li><a href="#">term of use</a></li>
+                    </ul>
+                </div>
+                
+                @Html.ActionLink("you", "Contact", "Home")
+                @Html.ActionLink("add post", "Contact", "Home", new { @class = "add_post" })
+            </nav>
         </div>
-    </div>
-    <div>
+    </section>
+    <section class="body-content">
         @RenderBody()
 
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year</p>
+            <p>blg &copy; @DateTime.Now.Year</p>
         </footer>
-    </div>
+    </section>
 
     @Scripts.Render("~/bundles/jquery")
     @RenderSection("scripts", required: false)
