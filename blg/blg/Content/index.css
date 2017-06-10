@@ -1,5 +1,4 @@
 ﻿h1, h2, h3, h4, h5, h6 {
-    /* margin: 10px 0px 0px 0px; */
     padding: 0;
 }
 
@@ -108,7 +107,7 @@ h2.section:hover {
 .all_article {
     padding: 5px 15px 0px 15px;
 }
-.all_article::after {
+.all_article::after { /* Clear float */
     content: '';
     display: block;
     clear: both;
@@ -124,4 +123,62 @@ h2.section:hover {
 }
 .article_section p {
     margin: 0;
+}
+
+/* Popup for adding new article */
+#createArticlePopup {
+    position: fixed;
+    height: 500px;
+    width: 500px;
+    /* On the center */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.5)  2px 2px 5px 0px;
+    border-radius: 10px;
+    background: RGB(56,238,255);
+    transition: 10s;
+}
+#closeArticlePopup {
+    position: absolute;
+
+    top: 10px;
+    right: 10px;
+
+    border-radius: 10px;
+}
+#formArticlePopup {
+    margin: 10% 1% 0% 1%;
+}
+#formArticlePopup > div {
+    padding: 5px 0px 0px 50px;
+}
+#formArticlePopup > div > span {
+    position: absolute;
+    left: 5px;
+}
+#formArticlePopup input[type='submit'], input[type='reset'] { /* Form control buttons */
+    position: absolute;
+    width: 45%;
+    
+    right: 10px;
+    bottom: 10px;
+
+    border: 0px;
+    border-radius: 10px;
+
+    padding: 14px;
+    font-size: x-large;
+    font-weight: normal;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s;
+}
+input[type='reset'] {
+    left: 10px;
+}
+#formArticlePopup input[type='submit']:hover, input[type='reset']:hover {
+    background-color: RGB(59,214,198);
 }

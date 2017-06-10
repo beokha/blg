@@ -1,0 +1,26 @@
+﻿{
+  "article": [
+    {
+      "id": 1,
+      "user_id": null,
+      "theme_id": 1,
+      "time_of_creation": "10/07/2017 7.15PM",
+      "title": "Blog is open!",
+      "short_description": "It's a first record",
+      "full_description": "Some text",
+      "rating": 0,
+      "state": true
+    },
+    {
+      "id": 2,
+      "user_id": null,
+      "theme_id": 1,
+      "time_of_creation": "10/07/2017 7.55PM",
+      "title": "Second article!",
+      "short_description": "It's a second",
+      "full_description": "Some text",
+      "rating": 5,
+      "state": true
+    }
+  ]
+}
