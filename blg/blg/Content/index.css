@@ -82,26 +82,6 @@ h2.section:hover {
     background-color: RGB(59,214,198);
 }
 
-@media screen and (max-width: 1020px) {
-    
-    .walking {
-        display: none;
-    }
-    .harticle {
-        display: block;
-        width: 80%;
-        margin: 0% 10% 0% 10%;
-    }
-}
-@media screen and (max-width: 1165px) {
-    .big_add_post {
-        display: none;
-    }
-    .add_post {
-        visibility: visible;
-    }
-}
-
 
 /* ------------------------------------ all article */
 .all_article {
@@ -128,19 +108,19 @@ h2.section:hover {
 /* Popup for adding new article */
 #createArticlePopup {
     position: fixed;
-    height: 500px;
-    width: 500px;
+    overflow-y: auto;
+    width: 50%;
     /* On the center */
-    top: 0;
-    bottom: 0;
+    top: 1%;
     left: 0;
     right: 0;
     margin: auto;
-    box-shadow: rgba(0, 0, 0, 0.5)  2px 2px 5px 0px;
+    box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 5px 0px;
     border-radius: 10px;
     background: RGB(56,238,255);
     transition: 10s;
 }
+/* btn to close */
 #closeArticlePopup {
     position: absolute;
 
@@ -149,36 +129,90 @@ h2.section:hover {
 
     border-radius: 10px;
 }
+
+/* form */
 #formArticlePopup {
     margin: 10% 1% 0% 1%;
+    
 }
+/* input container */
 #formArticlePopup > div {
     padding: 5px 0px 0px 50px;
 }
+/* input name */
 #formArticlePopup > div > span {
     position: absolute;
     left: 5px;
 }
+/* Caption to popup section */
+#formArticlePopup > div > h3 {
+    margin: 15px 0px 0px -50px;
+}
 #formArticlePopup input[type='submit'], input[type='reset'] { /* Form control buttons */
-    position: absolute;
-    width: 45%;
-    
-    right: 10px;
-    bottom: 10px;
+    width: 40%;
+    margin: 5% 5%;
+}
+input[type='reset'] {
+}
+/* Checkbox anonymous */
+input[name='anonymous'] {
+    margin: 0px 0px 0px 50px;
+    background: red;
+}
 
+
+
+/* Common btn style */
+.btnCommonStyle {
     border: 0px;
     border-radius: 10px;
-
-    padding: 14px;
+    padding: 5%;
     font-size: x-large;
     font-weight: normal;
     text-align: center;
     cursor: pointer;
     transition: 1s;
 }
-input[type='reset'] {
-    left: 10px;
-}
-#formArticlePopup input[type='submit']:hover, input[type='reset']:hover {
+.btnCommonStyle:hover {
     background-color: RGB(59,214,198);
+}
+
+@media screen and (max-width: 1165px) {
+    .big_add_post {
+        display: none;
+    }
+
+    .add_post {
+        visibility: visible;
+    }
+
+    /* Form popup */
+    #createArticlePopup {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+
+    .walking {
+        display: none;
+    }
+
+    .harticle {
+        display: block;
+        width: 80%;
+        margin: 0% 10% 0% 10%;
+    }
+
+    /* Form popup */
+    #createArticlePopup {
+        width: 90%;
+    }
+}
+
+/* min height of body element */
+@media screen and (min-height: 730px) {
+    body {
+        background-color: red;
+    }
 }

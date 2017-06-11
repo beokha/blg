@@ -40,7 +40,8 @@
     margin: 0;
     padding: 0;
 }
-.nav a, .nav div {
+/* All elements, that consist our nav menu */
+.nav a, .nav div, nav button {
     display: block;
     float: left;
 
@@ -57,17 +58,20 @@
 
     transition: 1s;
 }
-.nav div:hover, .nav a:hover {
+.nav div:hover, .nav a:hover, .nav button:hover  {
     background-color: RGB(85,255,238);
 }
 
 /* Add post in the menu*/
 .add_post {
     /*pointer-events:none;  turn off link */
-    font-size: xx-large !important;
+    font-size: x-large !important;
     font-style: italic;
     font-weight: bold;
     background-color: RGB(85,255,238);
+    
+    font-size: x-large;
+    border: 0px;
 }
 
 /* us menu: contact, location etc. */
@@ -186,6 +190,18 @@
         font-style: italic;
         font-weight: bold;
         background-color: RGB(85,255,238);
+    }
+}
+@media screen and (max-width: 421px) {
+    .add_post {
+        width: 75px;
+        font-size: small !important;
+    }
+}
+@media screen and (max-width: 330px) {
+    .add_post {
+        position: absolute;
+        left: -9999px;
     }
 }
 
