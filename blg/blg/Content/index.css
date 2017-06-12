@@ -2,6 +2,14 @@
     padding: 0;
 }
 
+/* Make invis bread crumbs */
+.breadCrumbsContact {
+    display: none !important;
+}
+.breadCrumbsTermOfUse {
+    display: none !important;
+}
+
 .add_post {
     visibility: hidden;
 }

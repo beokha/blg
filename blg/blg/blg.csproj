@@ -146,12 +146,21 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\index.css" />
+    <Content Include="Content\contact.css" />
+    <Content Include="Content\termOfuse.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="img\team\belokha.jpg" />
+    <Content Include="img\team\car.jpg" />
+    <Content Include="img\team\desk.jpg" />
+    <Content Include="img\team\build.jpg" />
+    <Content Include="img\team\sun.jpg" />
+    <Content Include="img\team\vovi.jpg" />
+    <Content Include="img\team\allteam.jpg" />
     <Content Include="Models\article.json" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
     <Content Include="img\site\blg.png" />
@@ -159,6 +168,8 @@
     <Content Include="img\site\blg_bckgrnd.gif" />
     <Content Include="img\site\blg_logo.png" />
     <Content Include="Scripts\article_logic.js" />
+    <Content Include="Scripts\contact.js" />
+    <Content Include="Scripts\googleMap.js" />
     <Content Include="Scripts\jquery-3.1.1.js" />
     <Content Include="Scripts\jquery-3.1.1.min.js" />
     <Content Include="Scripts\jquery-3.1.1.slim.js" />
@@ -186,6 +197,7 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\TermOfUse.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -20,7 +20,7 @@
                 <div class="us"> us info 
                     <ul class="ul_us">
                         <li>@Html.ActionLink("contact", "Contact", "Home")</li>
-                        <li><a href="#">term of use</a></li>
+                        <li>@Html.ActionLink("term of use", "TermOfUse", "Home")</li>
                     </ul>
                 </div>
                 @Html.ActionLink("you", "Contact", "Home")
@@ -34,13 +34,19 @@
                     <ul class="ul_small_nav">
                         <li>@Html.ActionLink("main", "Index", "Home")</li>
                         <li>@Html.ActionLink("contact", "Contact", "Home")</li>
-                        <li><a href="#">term of use</a></li>
+                        <li>@Html.ActionLink("term of use", "TermOfUse", "Home")</li>
                     </ul>
                 </div>
                 <button class="add_post">add post</button>
-                @*@Html.ActionLink("add post", "", "", new { @class = "add_post" })*@
             </nav>
         </div>
+    </section>
+    <section class="breadCrumbs">
+        <ul class="ulbreadCrumbs">
+            <li class="breadCrumbsMain"><a href="/Home/Index">main</a></li>
+            <li class="breadCrumbsContact"><a href="/Home/Contact">>contact us</a></li>
+            <li class="breadCrumbsTermOfUse"><a href="/Home/TermOfUse">>term of use</a></li>
+        </ul>
     </section>
     <section class="body-content">
         @RenderBody()

@@ -137,6 +137,7 @@ $(function () {
 
         // create instance of obj
         // var article = new Article(newArticle);
+
         try {
             $.post("/Home/createNewArticle/", { "userId": user_id, "themeId": themeId, "title": title, "shortDesc": shortDesc, "fullDesc": fullDesc }, "json");
         } catch (e) {

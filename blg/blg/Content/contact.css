@@ -1,0 +1,55 @@
+﻿/* Make invis bread crumbs */
+.breadCrumbsContact {
+    display: block !important;
+}
+.breadCrumbsTermOfUse {
+    display: none !important;
+}
+
+#photo {
+    width: 100%;
+    text-align: center;
+}
+#photo > h2 {
+    text-align: left;
+    margin: 3% 0% 0% 3%;
+}
+/* figure block */
+#photo > figure {
+    display: inline-block;
+    padding: 1%;
+    cursor: pointer;
+
+    transition: 1s;
+}
+#photo > figure:hover {
+    background-color: azure;
+    border-radius: 10px;
+}
+/* Make the max size of img */
+#photo > figure > img {
+    max-height: 300px;
+    max-width: 300px;
+}
+
+/* Hide about to show on hover (using js) */
+.about {
+    display: none;
+}
+
+/* Google map */
+#mapSection > h2 {
+    margin: 3% 0% 0% 3%;
+}
+#map {
+    margin: 0 auto;
+    width: 400px;
+    height: 350px;
+}
+
+@media screen and (max-width: 420px) {
+    #map {
+        width: 200px;
+        height: 150px;
+    }
+}

@@ -1,6 +1,66 @@
 ﻿
 @{
-    ViewBag.Title = "Contact us";
+    ViewBag.Title = "contact us";
 }
+<link href="~/Content/contact.css" rel="stylesheet" />
 
-<h2>Contact</h2>
+<section id="mapSection">
+    <h2> We are situated </h2>
+    @* Inserting Google map *@
+    <div id="map"></div>
+    <script src="~/Scripts/googleMap.js"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCr59aWKskuzMONiA37DXR_w6WcgUSn4g0&callback=initMap">
+    </script>
+</section>
+
+<section id="photo">
+    <h2>our photo</h2>
+    <figure>
+        <img src="~/img/team/belokha.jpg" alt="belokha danil, dev" />
+        <figcaption>
+            <span class="title">Belokha Danil</span>
+            <span class="about">Belokha Danil is the main JS dev</span>
+        </figcaption>
+    </figure>
+    <figure>
+        <img src="~/img/team/vovi.jpg" alt="vovi kov, backend" />
+        <figcaption>
+            <span class="title">Vovi Kovalenko</span>
+            <span class="about">Backend dev. Love coffee and travelling</span>
+        </figcaption>
+    </figure>
+    <figure>
+        <img src="~/img/team/car.jpg" alt="nil, dev" />
+    </figure>
+    <figure>
+        <img src="~/img/team/allteam.jpg" alt="all our team" />
+        <figcaption>
+            <span class="title">Team</span>
+            <span class="about">Rest</span>
+        </figcaption>
+    </figure>
+    <figure>
+        <img src="~/img/team/build.jpg" alt="the building" />
+        <figcaption>
+            <span class="title">just a perfect building</span>
+            <span class="about">Main office</span>
+        </figcaption>
+    </figure>
+    <figure>
+        <img src="~/img/team/desk.jpg" alt="desk?" />
+        <figcaption>
+            <span class="title">Team travelling</span>
+            <span class="about">LOST :c</span>
+        </figcaption>
+    </figure>
+    <figure>
+        <img src="~/img/team/sun.jpg" alt="beautiful pict" />
+        <figcaption>
+            <span class="title">The Sun</span>
+            <span class="about">View from a work place</span>
+        </figcaption>
+    </figure>
+</section>
+
+<script src="~/Scripts/contact.js" defer></script>

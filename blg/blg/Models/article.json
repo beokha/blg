@@ -1,5 +1,13 @@
 ﻿{
   "article": [
+{"GUID": "3636f18c-62c7-4251-a885-69fd59b06432","user_id": null,"theme_id": 1,"time_of_creation": "6/11/2017 11:14:59 PM","title": "asadaa213sd231","short_description": "asd","full_description": "asdasdsa","rating": 0,"state": true},
+{"GUID": "6b2d3d02-49ab-4880-b3c9-d52d57f452bc","user_id": null,"theme_id": 1,"time_of_creation": "6/11/2017 11:10:24 PM","title": "And once more","short_description": "Check","full_description": "Checked","rating": 0,"state": true},
+{"GUID": "d1bbea7b-786f-4812-8226-577afb95274c","user_id": 1,"theme_id": 1,"time_of_creation": "6/11/2017 11:09:55 PM","title": "Checked Article","short_description": "Check here","full_description": "Checking here?","rating": 5,"state": true},
+{"GUID": "3b2b17c5-d515-4657-87fe-cd04fa0130d2","user_id": 1,"theme_id": 1,"time_of_creation": "6/11/2017 11:09:22 PM","title": "13","short_description": "asdasdas","full_description": "dasdasdasd","rating": 0,"state": true},
+{"GUID": "441b01bd-b476-428f-8168-81fb1020a910","user_id": null,"theme_id": 1,"time_of_creation": "6/11/2017 11:09:13 PM","title": "12","short_description": "asdasdas","full_description": "sadasdasdsa","rating": 0,"state": true},
+{"GUID": "fe4f9644-dbe8-4633-969f-047c4c6f3b46","user_id": null,"theme_id": 1,"time_of_creation": "6/11/2017 11:09:02 PM","title": "11","short_description": "asdasd","full_description": "asdadasdasd","rating": 0,"state": true},
+{"GUID": "50296710-74e5-449f-9741-49ed951806fa","user_id": null,"theme_id": 1,"time_of_creation": "6/11/2017 11:08:48 PM","title": "asdasd","short_description": "asd","full_description": "asdasdasd","rating": 0,"state": true},
+{"GUID": "2ed94f73-7e33-4703-a0ca-55a20534b7e7","user_id": 1,"theme_id": 1,"time_of_creation": "6/11/2017 11:08:22 PM","title": "asadaasd232","short_description": "asd","full_description": "asdasd","rating": 0,"state": true},
 {"GUID": "85a33473-2f62-494c-a8d2-12e9e811559f","user_id": null,"theme_id": 1,"time_of_creation": "6/11/2017 11:00:54 PM","title": "asdasd","short_description": "asd","full_description": "asdasdassd","rating": 0,"state": true},
 {"GUID": "f6d22bf8-8cff-47d1-9fab-6bf59e5567b8","user_id": 1,"theme_id": 1,"time_of_creation": "6/11/2017 11:00:25 PM","title": "12312","short_description": "123","full_description": "1231231","rating": 0,"state": true},
     {
@@ -13,7 +21,7 @@
       "rating": 0,
       "state": true
     },
-    {"GUID": "8ae9d21b-f360-425f-9d8a-0a9c114a8ebe","user_id": 1,"theme_id": 1,"time_of_creation": "6/11/2017 10:55:30 PM","title": "New Article","short_description": "Short desc","full_description": "Full desc","rating": 0,"state": true},
+    {"GUID": "8ae9d21b-f360-425f-9d8a-0a9c114a8ebe","user_id": 1,"theme_id": 1,"time_of_creation": "6/11/2017 10:55:30 PM","title": "New Article","short_description": "Short desc","full_description": "Full desc","rating": 7,"state": true},
     {
       "GUID": 1,
       "user_id": null,
@@ -22,7 +30,7 @@
       "title": "Blog is open!",
       "short_description": "It's a first record",
       "full_description": "Some text",
-      "rating": 0,
+      "rating": 50,
       "state": true
     },
     {
