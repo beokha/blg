@@ -266,6 +266,52 @@ textarea {
 }
 
 footer {
+    position: relative;
     font-weight: bold;
     text-align: center;
+}
+
+/* Social */
+.social-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 25px;
+    margin: 0 auto;
+    width: 380px;
+    height: 100px;
+}
+
+    .social-container .links {
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+        .social-container .links a {
+            margin: 0 20px;
+            color: #ccc;
+            text-decoration: none;
+            font-size: 34px;
+            font-weight: bold;
+            text-shadow: 0px 2px 3px #fff;
+        }
+
+            .social-container .links a:hover {
+                color: #ED452A;
+            }
+
+.source {
+    width: 350px;
+    margin: 50px auto 0px;
+    background: #eee;
+    color: #666;
+    font-weight: bold;
+    display: block;
+    white-space: pre;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: inset #ccc 0px 0px 6px 0px;
+    -moz-box-shadow: inset #ccc 0px 0px 6px 0px;
+    box-shadow: inset #ccc 0px 0px 6px 0px;
 }

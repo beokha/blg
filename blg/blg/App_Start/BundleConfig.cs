@@ -21,7 +21,7 @@ namespace blg
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/site.css",
-                      "~/Content/index.css"));
+                      "~/Content/font-awesome.css"));
         }
     }
 }
