@@ -55,7 +55,7 @@ $(function () {
     $("#articleTitle").text(article.title[0]);
     $("#shortDescription").text(article.short_description);
     $("#fullDescription").text(article.full_description);
-    console.log(article);
+
     var author = (article.user_id == ((null) || (undefined))) ? "anonymous" : article.user_id;
     $("#author").text(author);
     $("#rating").text(article.rating);

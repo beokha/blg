@@ -386,3 +386,16 @@ footer {
     -moz-box-shadow: inset #ccc 0px 0px 6px 0px;
     box-shadow: inset #ccc 0px 0px 6px 0px;
 }
+
+/* min height of body element */
+@media screen and (max-height: 730px) {
+    .social-container {
+        width: auto;
+    }
+    .social-container .links a {
+        font-size: 25px;
+    }
+    .source {
+        width: auto;
+    }
+}

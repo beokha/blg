@@ -175,8 +175,8 @@ h2.section:hover {
 }
 
 /* min height of body element */
-@media screen and (min-height: 730px) {
-    body {
-        
+@media screen and (max-height: 730px) {
+    .article_section {
+        width: 46%;
     }
 }
