@@ -5,6 +5,9 @@
 .breadCrumbsTermOfUse {
     display: none !important;
 }
+.breadCrumbsArticle {
+    display: none !important;
+}
 
 #photo {
     width: 100%;

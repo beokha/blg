@@ -1,0 +1,34 @@
+﻿/* Make invis bread crumbs */
+.breadCrumbsContact {
+    display: none !important;
+}
+
+.breadCrumbsTermOfUse {
+    display: none !important;
+}
+
+.body-content {
+    padding: 0px 15px 0px 15px;
+}
+
+.description > h3 {
+    margin: 0;
+}
+.description > span {
+    margin-left: 15px;
+}
+
+
+.secondaryInformation {
+    float: right;
+    margin: 0;
+}
+
+.divSec:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.secondaryInformation > p {
+    margin: 0;
+}

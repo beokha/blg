@@ -44,6 +44,7 @@
     <section class="breadCrumbs">
         <ul class="ulbreadCrumbs">
             <li class="breadCrumbsMain"><a href="/Home/Index">main</a></li>
+            <li class="breadCrumbsArticle"><a href="#">>article</a></li>
             <li class="breadCrumbsContact"><a href="/Home/Contact">>contact us</a></li>
             <li class="breadCrumbsTermOfUse"><a href="/Home/TermOfUse">>term of use</a></li>
         </ul>
@@ -73,6 +74,7 @@
     @Scripts.Render("~/bundles/jquery")
     @RenderSection("scripts", required: false)
 
+    <script src="~/Scripts/addPost_logic.js"></script>
     <script src="~/Scripts/jquery.prettySocial.min.js"></script>
     <script type="text/javascript" class="source">
         $('.prettySocial').prettySocial();

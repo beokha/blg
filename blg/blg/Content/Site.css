@@ -31,12 +31,13 @@
     text-decoration: underline;
 
 }
-
+.breadCrumbsArticle > a {
+    pointer-events: none;
+}
 /* ------------------------------------ navbar */
 .navbar {
     background-color: RGB(56,238,255);
     height: 50px;
-
 }
 /* navbar container */
 .container {
@@ -244,6 +245,76 @@
 .body-content {
     /* padding: 10px 15px 0px 15px; */
 }
+
+/* Popup for adding new article */
+#createArticlePopup {
+    position: fixed;
+    overflow-y: auto;
+    width: 50%;
+    /* On the center */
+    top: 1%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 5px 0px;
+    border-radius: 10px;
+    background: RGB(56,238,255);
+    transition: 10s;
+}
+/* btn to close */
+#closeArticlePopup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 10px;
+}
+/* form */
+#formArticlePopup {
+    margin: 10% 1% 0% 1%;
+}
+    /* input container */
+    #formArticlePopup > div {
+        padding: 5px 0px 0px 50px;
+    }
+        /* input name */
+        #formArticlePopup > div > span {
+            position: absolute;
+            left: 5px;
+        }
+        /* Caption to popup section */
+        #formArticlePopup > div > h3 {
+            margin: 15px 0px 0px -50px;
+        }
+
+    #formArticlePopup input[type='submit'], input[type='reset'] { /* Form control buttons */
+        width: 40%;
+        margin: 5% 5%;
+    }
+
+input[type='reset'] {
+}
+/* Checkbox anonymous */
+input[name='anonymous'] {
+    margin: 0px 0px 0px 50px;
+}
+
+
+
+/* Common btn style */
+.btnCommonStyle {
+    border: 0px;
+    border-radius: 10px;
+    padding: 5%;
+    font-size: x-large;
+    font-weight: normal;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s;
+}
+
+    .btnCommonStyle:hover {
+        background-color: RGB(59,214,198);
+    }
 
 /* set default css */
 .section {

@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "Article";
+}
+<link href="~/Content/article.css" rel="stylesheet" />
+
+
+<h2> Title: <span id="articleTitle"></span></h2>
+
+
+<div id="divShortDescription" class="description"><h3>Short story</h3><span id="shortDescription"></span></div>
+<div id="divFullDescription" class="description"><h3>Full story</h3><span id="fullDescription"></span></div>
+
+<hr />
+<div class="divSec">
+    <div class="secondaryInformation"><p>Author: <span id="author"></span></p></div> <br />
+    <div class="secondaryInformation"><p>Rating: <span id="rating"></span></p></div> <br />
+    <div class="secondaryInformation"><p>Date of creation: <span id="dateOfCreation"></span></p></div>
+</div>
+
+
+<script src="~/Scripts/article.js" defer></script>

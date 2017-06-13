@@ -145,6 +145,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\article.css" />
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
     <Content Include="Content\index.css" />
@@ -176,7 +177,9 @@
     <Content Include="img\site\blg_background.gif" />
     <Content Include="img\site\blg_bckgrnd.gif" />
     <Content Include="img\site\blg_logo.png" />
-    <Content Include="Scripts\article_logic.js" />
+    <Content Include="Scripts\addPost_logic.js" />
+    <Content Include="Scripts\article.js" />
+    <Content Include="Scripts\index_article_logic.js" />
     <Content Include="Scripts\contact.js" />
     <Content Include="Scripts\googleMap.js" />
     <Content Include="Scripts\jquery-3.1.1.js" />
@@ -208,6 +211,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\TermOfUse.cshtml" />
+    <Content Include="Views\Home\Article.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

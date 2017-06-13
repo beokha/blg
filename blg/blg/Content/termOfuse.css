@@ -5,3 +5,6 @@
 .breadCrumbsTermOfUse {
     display: block !important;
 }
+.breadCrumbsArticle {
+    display: none !important;
+}

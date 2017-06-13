@@ -26,6 +26,11 @@ namespace blg.Controllers
             return View();
         }
 
+        public ActionResult Article()
+        {
+            return View();
+        }
+
         [HttpPost]
         // Write data to file 
         public void createNewArticle(int? userId, int themeId, string title, string shortDesc, string fullDesc)
